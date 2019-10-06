@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Pendapatan Nasional</string>
+    <string name="materiBtn">Materi</string>
+    <string name="latihanBtn">Latihan</string>
+    <string name="kuisBtn">Kuis</string>
+    <string name="ilustrasiBtn">Ilustrasi</string>
+    <string name="bantuanBtn">Bantuan</string>
+    <string name="keluarBtn">Keluar</string>
+</resources>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/mainImage"
+        android:layout_width="233dp"
+        android:layout_height="263dp"
+        android:layout_marginTop="52dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TableLayout
+        android:layout_width="383dp"
+        android:layout_height="174dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.74">
+
+        <TableRow
+            style="?android:attr/buttonBarStyle"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_height = "0dp"
+            android:layout_weight = "1">
+
+            <Button
+                android:id="@+id/materiBtn"
+                style="?android:attr/button"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/materiBtn" />
+
+            <Button
+                android:id="@+id/latihanBtn"
+                style="?android:attr/button"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/latihanBtn" />
+
+            <Button
+                android:id="@+id/kuisBtn"
+                style="?android:attr/button"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/kuisBtn" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_height = "0dp"
+            android:layout_weight = "1">
+
+            <Button
+                android:id="@+id/ilustrasiBtn"
+                style="?android:attr/button"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/ilustrasiBtn" />
+
+            <Button
+                android:id="@+id/bantuanBtn"
+                style="?android:attr/button"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/bantuanBtn" />
+
+            <Button
+                android:id="@+id/keluarBtn"
+                style="?android:attr/button"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/keluarBtn" />
+        </TableRow>
+
+    </TableLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
